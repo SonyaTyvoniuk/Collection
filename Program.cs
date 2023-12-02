@@ -102,7 +102,7 @@ class Program
         taskManager.RemoveTask(1);
         taskManager.DisplayTasks();
 
-        // Тестування завдання 2
+        // Тестування 2
         UserManager userManager = new UserManager();
         userManager.AddUser(new User { Id = 1, Name = "Igor Vinnychuk" });
         userManager.AddUser(new User { Id = 2, Name = "Igor Stanislavovich" });
